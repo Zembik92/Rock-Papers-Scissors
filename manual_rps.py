@@ -47,5 +47,4 @@ def play():
     user = get_user_choice()
     computer = get_computer_choice()
     results = get_winner(computer, user)
-    
 play()   
