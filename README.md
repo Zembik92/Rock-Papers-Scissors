@@ -9,4 +9,4 @@
 * Check if your model is working by running testfile.py, ensure the model and lables file are in the same folder as testfile.py.
 
 # Milestone 4
-* Program a rock, paper, scissors game
+* Program a rock, paper, scissors game using the command line
