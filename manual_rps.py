@@ -2,7 +2,7 @@
 import random
 
 #Create a list of the options
-options = ["rock", "paper", "scissos"]
+options = ["rock", "paper", "scissors"]
 
 #Randomly pick one
 def get_computer_choice():
@@ -15,6 +15,7 @@ def get_computer_choice():
 def get_user_choice():
     while True:
         choice = input("input your choice: ")
+        choice = choice.lower()
         if choice not in options:
             print("invalid choice, try again: ")
         else:
@@ -39,8 +40,6 @@ def get_winner(computer_choice, user_choice):
             print("Scissors cuts paper! You win!")
         else:
             print("Rock smashes scissors! You lose.")
-
-        return get_winner(computer_choice, user_choice)
 
 
 def play():
