@@ -10,3 +10,7 @@
 
 # Milestone 4
 * Program a rock, paper, scissors game using the command line
+
+# Milestone 5
+* A rock, paper, scisors game that asks the user for input via video capturing, then predicts the gestures using a model created in teachable machine and compares the     results of the model to the random choice made by the computer.
+* Display the gesture predicted by the model on the frame as text.
